@@ -6,6 +6,9 @@ In Rochester it is incredibly difficult for astronomy classes, amateur astronome
 ## What it does
 It takes data from the HYG Star Database and allows the user to visualize the night sky as they would expect it look in an area with very little light pollution.  You can see the video for it in action...
 
+[![Alt text](https://img.youtube.com/vi/ibaOJzUnTQU/0.jpg)](https://www.youtube.com/watch?v=ibaOJzUnTQU&feature=youtu.be)
+(Click above image to see video)
+
 ## How I built it
 First I had to find a dataset of Stars to use.  I decided on the HYG (Hipparcos, Yale Bright Star, and Gliese catalogs) stellar database.  It includes global position x,y,z coordinates, right ascension and declination positions, as well as stellar magnitude.  With these parameters you have all you need to plot Stars in the night sky.  For now I am just taking the x,y,z coordinates and normalizing the positions to a sphere (which is consistent with how our stellar coordinate systems currently work).  Then I made a rough formula that relates magnitude to the visibility of the star.  Eventually I want to play with star sizes as well.  Once the stars were in place I threw in a VR controller prefab and wrote the code for the movement.
 
@@ -23,7 +26,7 @@ I learned a lot about how Unitys VR system is setup and some of the finer idiosy
 ## What's next for Virtual Reality Planetarium
 There are several more tasks that I want to accomplish.
 1) Local coordinates along with ability to select location
-2) Ambient music
+2) Ambient music.  Might compose this or get a friend to compose it.
 3) Nicer flooring
 4) Planetary motion and orbits.  This would be another day in and of itself due to the math required to go from orbital parameters to cartesian (x, y, z) coordinates. 
 
