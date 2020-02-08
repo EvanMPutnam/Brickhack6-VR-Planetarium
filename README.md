@@ -1,5 +1,5 @@
 
-
+# Virtual Reality Planetarium
 ## Inspiration
 In Rochester it is incredibly difficult for astronomy classes, amateur astronomers, etc to go out observing the night sky.  The weather in Rochester, as well as light pollution from the city, creates an environment where viewing opportunities for astronomers and space enthusiasts are very limited.  There are neat programs like Stellarium that allow you to view the night sky on your computer but they are not very immersive.  Having some experience with VR and stellar data I thought this would be a great opportunity to help satisfy that need.  
 
@@ -19,7 +19,7 @@ Configuration was the hardest part with getting virtual reality setup.  The Ocul
 Additionally, I spend a significant time trying to implement local coordinates from the global.  In theory you should be able to take the global coordinates from the RA/DEC along with Lat/Long to calculate where the stars would appear at the current location.  However, this proved very difficult with some fairly advance math.  I hope to be able to get this working eventually. 
 
 ## Accomplishments that I'm proud of
-I managed to get CSV parsing of the dataset working and was able to plot the data successfully.  I managed to get VR controls working with the planetarium which allow users to rotate the night sky.
+I managed to get CSV parsing of the dataset working and was able to plot the data successfully in a scientifically accurate and visually pleasing way.  I managed to get VR controls working with the planetarium as well which allows users to rotate the night sky as they see fit.  It was a lot of different pieces that came together with VR, a little statistics, and Unity to create something that I am pretty proud of.
 
 ## What I learned
 I learned a lot about how Unitys VR system is setup and some of the finer idiosyncrasies associated with setting up a VR project.  While I had some experience with this previously I did not have 
