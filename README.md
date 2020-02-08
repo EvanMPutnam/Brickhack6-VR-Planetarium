@@ -7,6 +7,7 @@ In Rochester it is incredibly difficult for astronomy classes, amateur astronome
 It takes data from the HYG Star Database and allows the user to visualize the night sky as they would expect it look in an area with very little light pollution.  You can see the video for it in action...
 
 [![Alt text](https://img.youtube.com/vi/ibaOJzUnTQU/0.jpg)](https://www.youtube.com/watch?v=ibaOJzUnTQU&feature=youtu.be)
+
 (Click above image to see video)
 
 ## How I built it
