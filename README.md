@@ -4,7 +4,7 @@
 In Rochester it is incredibly difficult for astronomy classes, amateur astronomers, etc to go out observing the night sky.  The weather in Rochester, as well as light pollution from the city, creates an environment where viewing opportunities for astronomers and space enthusiasts are very limited.  There are neat programs like Stellarium that allow you to view the night sky on your computer but they are not very immersive.  Having some experience with VR and stellar data I thought this would be a great opportunity to help satisfy that need.  
 
 ## What it does
-It takes data from the HYG Star Database and allows the user to visualize the night sky as they would expect it look in an area with very little light pollution.  You can see the video for it in action...
+It takes data from the HYG Star Database and allows the user to visualize the night sky as they would expect it look in an area with very little light pollution.  The platform used is Oculus Quest.  You can see the video for it in action...
 
 [![Alt text](https://img.youtube.com/vi/ibaOJzUnTQU/0.jpg)](https://www.youtube.com/watch?v=ibaOJzUnTQU&feature=youtu.be)
 
